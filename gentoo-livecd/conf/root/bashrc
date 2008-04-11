@@ -1,0 +1,4 @@
+env-update
+source /etc/profile
+export PS1="(LIVECD) $PS1"
+echo "Ok"

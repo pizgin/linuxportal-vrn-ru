@@ -1,0 +1,9 @@
+timeout=5
+
+title=LIVE-CD
+
+kernel /boot/vmlinuz root=/dev/ram0 real_root=/dev/loop0 \
+looptype=squashfs loop=/livecd.squashfs \
+udev nodevfs cdroot
+
+initrd /boot/initrd
